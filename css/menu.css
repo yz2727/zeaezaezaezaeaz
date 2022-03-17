@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding:0;
+
+}
+  body{
+    font-family: Old English Text MT;
+    font-weight: 500;
+    text-decoration-color: aliceblue;
+}
+
+.preface{
+  text-align: center;
+}
+
+.texte{
+  color: rgb(7, 7, 7);
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Ajustement du fond */
+.section-bvn{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100;
+  left: 100;
+  opacity: 1;
+  z-index: -100;
+  overflow: hidden;
+}
+.section-bvn{
+  text-align: left;
+}
+
+.section-bvn video{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left:0;
+  z-index: -100;
+  opacity: 0.5;
+}
+
+/* Placement du texte */
+.liliput{
+  position: absolute;
+  top: 88%;
+  left: 70%;
+  transform: translate(-160%,-70%);
+  text-align: center;
+  transition: 1s;
+}
+
+
+
+.liliput img{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  
+}
+
+
+.liliput :hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+  
